@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>VARITIKA</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+    <!-- bagian header -->
+    <header>
+        <h1 class="judul">VARITIKA</h1>
+        <p class="deskripsi">memudahkan anda dalam menghitung</p>
+    </header>
+    <!-- akhir bagian header  -->
+
+    <div class="container">
+        <!-- bagian menu		 -->
+        <nav class="menu">
+            <ul>
+                <li>
+                    <a href="index.html">Statistika</a>
+                </li>
+                <li>
+                    <a href="index2.html">Fisika</a>
+                </li>
+                <li>
+                    <a href="index3.html">Aljabar Linear</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- bagian sidebar -->
+        <aside class="sidebar">
+            <div class="widget">
+                <h2>profile</h2>
+                <img src="img/hero1.png" high="250" width="250">
+                <table>
+
+                    <tr>
+                        <th>Nama:</th>
+                        <td>M.salisianto fahmi zaka</td>
+                    </tr>
+                    <tr>
+                        <th>alamat:</th>
+                        <td>lamongan ,jatim</td>
+                    </tr>
+                    <tr>
+                        <th>No:</th>
+                        <td>085257802904</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="widget">
+
+
+                <div class="main">
+                    <h2>Kalkulator</h2>
+                    <form name="formAngka">
+                        <input type="text" name="isiText" autocomplete="off">
+                    </form>
+                    <table>
+                        <tr>
+                            <td><input type="button" value="C" onclick="hapusAll()"></td>
+                            <td colspan="2"><input type="button" value="HAPUS" onclick="bcksp()"></td>
+                            <td><input type="button" value="+" onclick="ins('+')"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="button" value="1" onclick="ins(1)"></td>
+                            <td><input type="button" value="2" onclick="ins(2)"></td>
+                            <td><input type="button" value="3" onclick="ins(3)"></td>
+                            <td><input type="button" value="-" onclick="ins('-')"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="button" value="4" onclick="ins(4)"></td>
+                            <td><input type="button" value="5" onclick="ins(5)"></td>
+                            <td><input type="button" value="6" onclick="ins(6)"></td>
+                            <td><input type="button" value="x" onclick="ins('*')"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="button" value="7" onclick="ins(7)"></td>
+                            <td><input type="button" value="8" onclick="ins(8)"></td>
+                            <td><input type="button" value="9" onclick="ins(9)"></td>
+                            <td><input type="button" value=":" onclick="ins('/')"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="button" value="." onclick="ins('.')"></td>
+                            <td><input type="button" value="0" onclick="ins(0)"></td>
+                            <td colspan="2"><input type="button" value="=" onclick="samaDengan()"></td>
+                        </tr>
+                    </table>
+                </div>
+                <script src="js.js"></script>
+
+            </div>
+        </aside>
+        <!-- akhir bagian sidebar -->
+
+        <!-- bagian konten -->
+        <div class="blog">
+            <div class="conten">
+                <img src="img/hero4.png">
+                <h1> Hukum Newton l ,ll ,lll</h1>
+                <hr>
+                <p>
+                    Hukum I Newton : Jika sebuah benda dalam keadaan diam,akan tetap diam,atau jika benda tersebut sedang bergerak lurus beraturan akan tetap bergerak lurus beraturan. <br><br> Hukum II Newton : jika resultan gaya yang bekerja pada sebuah
+                    benda tidak sama dengan nol maka benda itu mengalami percepatan. besar percepatannya sebanding dengan gaya total dan berbanding terbalik dengan massa benda dan arah percepatannya sama dengan arah gaya total <br> <br> Hukum III Newton
+                    : jika sebuah benda mengerjakan gaya terhadap benda lain,maka benda lain akan mengerjakan gaya yang sama besar dan berlawanan pada benda tersebut
+
+
+                </p>
+                <br> <br>
+                <img src="img/hero5.png">
+                <h1>Rumus Percepatan</h1>
+                <hr>
+                <p>
+                    Keterangan: <br><br> a = percepatan rata – rata (m/s2) <br> Δv = perubahan kecepatan (m/s) <br> Δt = selang waktu (s) <br> V1 = waktu awal (m/s) <br> V2 = kecepatan akhir (m/s) <br> t1 = waktu awal (s) <br> t2 = waktu akhir (s) <br>                    Berdasarkan persamaan diatas, nilai percepatan dapat bernilai positif dan juga dapat bernilai negatif.
+                    <br> <br> Nilai percepatan yang positif artinya benda mengalami perubahan nilai kecepatan ke arah nilai kecepatan yang lebih besar atau bisa dikatakan memiliki kecepatan akhirnya bertambah.
+                    <br> <br> Berikut contoh beberapa peristiwa percepatan:
+                    <br> <br> Gerak buah kelapa yang dari pohonnya jatuh ke tanah akan semakin cepat. <br> Gerak sepeda pada jalan menurun akan semakin cepat. <br> Gerak sepeda motor yang kalau di gas kencang gerakannya akan semakin meningkat.
+                </p>
+            </div>
+            <div class="footer">
+                <p> &copy; M.salisianto fahmi zaka - no copy</p>
+            </div>
+        </div>
+        <!-- akhir bagian konten  -->
+    </div>
+
+</body>
+
+</html>
