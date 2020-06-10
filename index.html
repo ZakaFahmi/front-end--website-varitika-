@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>VARIATIKA</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+    <!-- bagian header -->
+    <header>
+        <h1 class="judul">VARITIKA</h1>
+        <p class="deskripsi">memudahkan anda dalam menghitung</p>
+    </header>
+    <!-- akhir bagian header  -->
+
+    <div class="container">
+        <!-- bagian menu		 -->
+        <nav class="menu">
+            <ul>
+                <li>
+                    <a href="index.html">Statistika</a>
+                </li>
+                <li>
+                    <a href="index2.html">Fisika</a>
+                </li>
+                <li>
+                    <a href="index3.html">Aljabar Linear</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- bagian sidebar -->
+        <aside class="sidebar">
+            <div class="widget">
+                <h2>profile</h2>
+                <img src="img/hero1.png" high="250" width="250">
+                <table>
+
+                    <tr>
+                        <th>Nama:</th>
+                        <td>M.salisianto fahmi zaka</td>
+                    </tr>
+                    <tr>
+                        <th>alamat:</th>
+                        <td>lamongan ,jatim</td>
+                    </tr>
+                    <tr>
+                        <th>No:</th>
+                        <td>085257802904</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="widget">
+
+
+                <div class="main">
+                    <h2>Kalkulator</h2>
+                    <form name="formAngka">
+                        <input type="text" name="isiText" autocomplete="off">
+                    </form>
+                    <table>
+                        <tr>
+                            <td><input type="button" value="C" onclick="hapusAll()"></td>
+                            <td colspan="2"><input type="button" value="HAPUS" onclick="bcksp()"></td>
+                            <td><input type="button" value="+" onclick="ins('+')"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="button" value="1" onclick="ins(1)"></td>
+                            <td><input type="button" value="2" onclick="ins(2)"></td>
+                            <td><input type="button" value="3" onclick="ins(3)"></td>
+                            <td><input type="button" value="-" onclick="ins('-')"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="button" value="4" onclick="ins(4)"></td>
+                            <td><input type="button" value="5" onclick="ins(5)"></td>
+                            <td><input type="button" value="6" onclick="ins(6)"></td>
+                            <td><input type="button" value="x" onclick="ins('*')"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="button" value="7" onclick="ins(7)"></td>
+                            <td><input type="button" value="8" onclick="ins(8)"></td>
+                            <td><input type="button" value="9" onclick="ins(9)"></td>
+                            <td><input type="button" value=":" onclick="ins('/')"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="button" value="." onclick="ins('.')"></td>
+                            <td><input type="button" value="0" onclick="ins(0)"></td>
+                            <td colspan="2"><input type="button" value="=" onclick="samaDengan()"></td>
+                        </tr>
+                    </table>
+                </div>
+                <script src="js.js"></script>
+
+            </div>
+        </aside>
+        <!-- akhir bagian sidebar -->
+
+        <!-- bagian konten -->
+        <div class="blog">
+            <div class="conten">
+                <img src="img/hero2.png">
+                <h1> Cara Menghitung Teorema Pythagoras?</h1>
+                <hr>
+                <p>
+                    Berdasarkan dalil yang dikemukakan Pythagoras, ia mengungkapkan bahwa kuadrat panjang sisi miring suatu segitiga siku-siku (salah satu sudutnya 90°) adalah sama dengan jumlah kuadrat panjang sisi-sisi lainnya. Secara sederhana, teorema Pythagoras dapat
+                    dirumuskan sebagai berikut:
+                    <br><br> a2 + b2 = c2 <br><br> Di mana “c” merupakan sudut terpanjang dari segitiga siku-siku. Nah, dengan menggunakan teorema Pythagoras, kita dapat menentukan mana kumpulan bilangan yang merupakan segitiga siku-siku.
+
+                    <br>Misalnya <br>
+
+                    <br>a = 3, b = 4 dan c = x, dengan menguadratkan sisi miring dan jumlahkan kuadrat sisi lainnya, maka diperoleh: <br>
+
+                    <br>a2 + b2 = c2
+
+                    <br>32 + 42 = c2
+
+                    <br>9 + 16 = c2
+
+                    <br>25 = c2
+
+                    <br>C = √25
+
+                    <br>C = 5
+
+                    <br>Selain itu, dengan menggunakan teorema Pythagoras tadi, kita dapat menentukan; apakah ketiga barisan bilangan dapat membentuk segitiga siku-siku.
+
+                    <br>Contoh :
+
+                    <br>a = 10, b = 8 dan c = 22, dengan mengudaratkan sisi miring dan jumlahkan kuadrat sisi lainnya, maka diperoleh:
+
+                    <br>c2 = 222
+
+                    <br>c2 = 484;
+
+                    <br>a2 + b2 = 102 + 82
+
+                    <br>a2 + b2 = 100 + 64
+
+                    <br>a2 + b2 = 164
+
+                    <br>Karena 222 > 102 + 82, maka segitiga ini bukan termasuk segitiga siku-siku.
+
+                </p>
+                <br> <br>
+                <img src="img/hero3.png">
+                <h1>teorema Bayes</h1>
+                <hr>
+                <p>
+                    Contoh Soal <br><br> Suatu mata kuliah teori probabilitas diikuti oleh 50 mahasiswa tahun ke 1, 15 mahasiswa tahun ke 2 dan 10 mahasiswa tahun ke 3. Diketauhi mahasiswa yang mendapatkan nilai A adalah 10 orang dari mahsiswa tahun ke
+                    1, 8 orang dari mahasiswa tahun ke 2 dan 5 orang mahasiswa tahun ke 3. Bila seorang mahasiswa dipilih secara acak ,berapakah peluang dia:<br><br> a. Mendapatkan nilai A<br> b. Mahasiswa tahun ke 1 bila diketauhi dia mendapatkan A<br>                    <br> Diketahui
+                    <br>
+
+                    <br> 1. Jumlah mahasiswa yang mengikuti mata kuliah teori proababilitas adalah 75 orang<br><br> 2. P(M1), atau peluang mahasiswa adalah mahasiswa tahun ke-1 yaitu 50/75<br><br> 3. P(M2), atau peluang mahasiswa adalah mahasiswa tahun
+                    ke-2 yaitu 15/75
+                    <br><br> 4. P(M3), atau peluang mahasiswa adalah mahasiswa tahun ke-3 yaitu 10/75<br><br> 5. P(A|M1) atau peluang mahasiswa tahun ke-1 yang mendapatkan nilai A sebesa 10/50<br><br> 6. P(A|M2) atau peluang mahasiswa tahun ke-2 yang
+                    mendapatkan nulai A yaitu 8/15<br><br> 7. P(A|M3) atau peluang mahasiswa tahun ke-3 yang mendapatkan nulai A yaitu 5/10
+                    <br><br> a. P(A)= ∑ P(Mi)xP(A|Mi)<br> = (P(M1)xP(A|M1) + P(M2)xP(A|M2) + P(M3)xP(A|M3))<br> =(50/75X10/50 + 15/75X8/15 + 10/75X5/10)<br> =23/75
+
+                    <br> <br>b. Mahasiswa tahun ke 1 bila diketauhi dia mendapatkan A<br> P(M1|A) = (P(M1) x P(A|M1))/P(A)
+                    <br> =(50/75 x 10/50)/(23/75)<br> =10/23
+
+                    <br>
+
+                </p>
+
+            </div>
+            <div class="footer">
+                <p> &copy; M.salisianto fahmi zaka - no copy</p>
+            </div>
+        </div>
+        <!-- akhir bagian konten  -->
+
+
+    </div>
+
+</body>
+
+</html>

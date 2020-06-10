@@ -1,0 +1,261 @@
+    @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800,700,600,300);
+    body {
+        background: linear-gradient(50deg, #00FFFF 10%, #00BFFF) !important;
+        margin: 0;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    hr {
+        background: #dedede;
+        height: 1px;
+    }
+    
+    header {
+        text-align: center;
+    }
+    
+    header .judul {
+        font-size: 40pt;
+        font-weight: 680px;
+        color: #6495ED;
+        text-shadow: 0px 1px #577079, 0px 2px #577079, 0px 3px #577079, 0px 4px #577079, 0px 5px #577079, 0px 6px #577079, 0px 7px #577079, 0px 7px 10px #333;
+    }
+    
+    header .deskripsi {
+        font-size: 11pt;
+        color: black;
+    }
+    
+    .container {
+        width: 950px;
+        margin: 25px auto;
+    }
+    
+    nav.menu ul {
+        list-style: none;
+        float: left;
+        padding: 0;
+        width: 650px;
+        margin: 0 0 0;
+        background: linear-gradient(75deg, #426281 10%, blue) !important;
+        -webkit-box-shadow: 1px 1px 1px 0px rgba(204, 204, 204, 0.55);
+        -moz-box-shadow: 1px 1px 1px 0px rgba(204, 204, 204, 0.55);
+        box-shadow: 1px 1px 1px 0px rgba(204, 204, 204, 0.55);
+    }
+    
+    nav.menu ul li {
+        margin: 0;
+        float: left;
+    }
+    
+    nav.menu ul a {
+        padding: 25px;
+        display: block;
+        font-weight: 600;
+        font-size: 16px;
+        color: #fff;
+        text-transform: uppercase;
+        transition: all 0.5s ease;
+        text-decoration: none;
+    }
+    
+    nav.menu ul a:hover {
+        text-decoration: underline;
+        background: blueviolet;
+    }
+    
+    .sidebar {
+        float: right;
+        width: 275px;
+    }
+    
+    .sidebar .widget {
+        margin: 0 0 25px;
+        background: #fff;
+        border-bottom: 2px solid #fff;
+        transition: all 0.5s ease;
+    }
+    
+    .sidebar .widget:hover {
+        border-bottom: 2px solid #3498db;
+    }
+    
+    .sidebar .widget h2 {
+        text-align: center;
+        padding: 0;
+        margin: 0 0 15px;
+        color: #3498db;
+        font-size: 18px;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+    
+    .sidebar .widget p {
+        font-size: 14px;
+    }
+    
+    .sidebar .widget p:last-child {
+        margin: 0;
+    }
+    /*kalkulator*/
+    
+    .main {
+        background-color: #00FFFF;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 5px 4px 5px #A5A5A5FF;
+    }
+    
+    table {
+        width: 100%;
+    }
+    
+    form input {
+        font-size: 130%;
+        margin: 5px;
+        padding: 5px;
+        height: 50px;
+    }
+    
+    table td input {
+        width: 100%;
+        background-color: #ADD8E6;
+        cursor: pointer;
+        border: 2px solid #000;
+    }
+    
+    table td input:hover {
+        border: 2px solid #DAA67BFF;
+    }
+    /*kalkulator*/
+    
+    .blog {
+        float: left;
+    }
+    
+    .conten {
+        width: 600px;
+        padding: 25px;
+        margin: 25px auto;
+        background: #fff;
+        border: 1px solid #dedede;
+        -webkit-box-shadow: 1px 1px 1px 0px rgba(204, 204, 204, 0.35);
+        -moz-box-shadow: 1px 1px 1px 0px rgba(204, 204, 204, 0.35);
+        box-shadow: 1px 1px 1px 0px rgba(204, 204, 204, 0.35);
+    }
+    
+    .conten img {
+        min-width: 650px;
+        margin: 0 0 25px -25px;
+        max-width: 650px;
+    }
+    
+    .conten h1 {
+        padding: 0;
+        margin: 0 0 15px;
+        font-weight: normal;
+        color: #666;
+        font-family: Georgia;
+    }
+    
+    .conten p:last-child {
+        margin: 0;
+    }
+    
+    div.footer {
+        margin: 5px;
+        border: 1px solid black;
+        background-color: #CCCCFF;
+        text-align: center;
+        clear: both;
+        height: 50px;
+    }
+    
+    @media screen and (max-width: 960px) {
+        .header {
+            position: inherit;
+        }
+        .wrap {
+            width: 90%;
+            margin: 25px auto;
+        }
+        .sidebar {
+            width: 100%;
+            margin: 25px 0 0;
+            float: right;
+        }
+        .sidebar .widget {
+            padding: 5%;
+        }
+        nav.menu ul {
+            width: 100%;
+        }
+        nav.menu ul {
+            float: inherit;
+        }
+        nav.menu ul li {
+            float: inherit;
+            margin: 0;
+        }
+        nav.menu ul a {
+            padding: 15px;
+            font-size: 16px;
+            border-top: 1px solid #1abf9f;
+            border-bottom: 1px solid #16a085;
+        }
+        .blog {
+            width: 90%;
+        }
+        /*kalkulator*/
+        table {
+            width: 100%;
+        }
+        form input {
+            font-size: 460%;
+            margin: 5px;
+            padding: 5px;
+            height: 50px;
+        }
+        table td input {
+            width: 100%;
+            background-color: #ADD8E6;
+            cursor: pointer;
+            border: 2px solid #000;
+        }
+        table td input:hover {
+            border: 2px solid #DAA67BFF;
+        }
+        /*kalkulator*/
+        .conten {
+            float: inherit;
+            margin: 0 auto 25px;
+            width: 101%;
+            border: 1px solid #dedede;
+            padding: 5%;
+            background: #fff;
+        }
+        .conten img {
+            max-width: 110%;
+            margin: 0 0 25px -5%;
+            min-width: 110%;
+        }
+    }
+    
+    @media screen and (max-width: 460px) {
+        nav.menu ul a {
+            padding: 15px;
+            font-size: 14px;
+        }
+        .sidebar {
+            display: none
+        }
+        .post-info {
+            display: none;
+        }
+        .conten {
+            margin: 25px auto;
+        }
+        .conten img {
+            margin: -5% 0 25px -5%;
+        }
+    }
